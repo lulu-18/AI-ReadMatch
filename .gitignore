@@ -1,0 +1,36 @@
+﻿# AI ReadMatch Git Ignore Rules
+
+# Sensitive research data and credentials
+phase-1-user-research/questionnaire-responses/raw/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local tool and editor artifacts
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Build outputs and dependencies
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime databases, uploads, and temporary data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+tmp/
+.temp/
