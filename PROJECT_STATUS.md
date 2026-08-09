@@ -66,3 +66,12 @@ ReadMatch 是一个基于证据的个性化小说决策系统。第一版面向�
 - 原始目录必须保持本地，不上传 Git/GitHub：`phase-1-user-research/questionnaire-responses/raw/`；
 - 不提交 API Key、Token、`.env`、个人信息、临时构建产物或依赖目录；
 - Git 配置完成后，以“完整里程碑”为单位提交，并在每次提交前检查 `git status`。
+
+## 2026-08-09 Git 记录状态
+
+- 本地仓库：已初始化；
+- 分支：`main`；
+- 基线提交：`1c2fdd6`；
+- 敏感原始问卷：已忽略，未进入提交；
+- GitHub 远程：待配置；
+- 后续每个里程碑按 `GIT_WORKFLOW.md` 更新状态、历史、提交并在远程可用后推送。

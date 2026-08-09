@@ -40,3 +40,12 @@
 ## 下一条计划记录
 
 完成 PRD v1、AI 架构、数据 Schema 和评测标注规范后更新。
+
+## 2026-08-09 — 持久化上下文与本地 Git 基线
+
+- 新增 `AGENTS.md`、`PROJECT_STATUS.md`、`PROJECT_HISTORY.md` 和 `GIT_WORKFLOW.md`；
+- 新对话可以通过固定读取顺序恢复项目背景、已冻结决定和下一步；
+- 初始化本地 Git 仓库，默认分支为 `main`；
+- 创建初始基线提交 `1c2fdd6`；
+- `.gitignore` 已排除含个人标识的原始问卷数据、密钥和本地产物；
+- GitHub 远程尚未配置，等待仓库地址和身份信息后同步。

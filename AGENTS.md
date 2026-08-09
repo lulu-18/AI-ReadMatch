@@ -25,3 +25,13 @@
 ## 当前下一步
 
 已完成 MVP 范围冻结。下一阶段是共同产出 PRD v1、AI 系统架构、数据 Schema 与评测集设计；不得直接跳到完整编码。
+
+## Windows Git 提示
+
+Codex 沙箱用户与项目目录所有者不同。运行 Git 命令时若出现 `dubious ownership`，使用：
+
+```text
+git -c safe.directory='D:/桌面/AI ReadMatch' <command>
+```
+
+不要因此删除或重建 `.git`。
