@@ -82,3 +82,11 @@ ReadMatch 是一个基于证据的个性化小说决策系统。第一版面向�
 - 已配置远程候选：`https://github.com/lulu-18/AI-ReadMatch.git`；
 - 当前尚未成功验证或推送：网络连接 GitHub 被重置，且需确认远程仓库已创建；
 - 在首次成功推送前，不将 GitHub 同步标记为完成。
+
+### GitHub 同步状态（2026-08-09）
+
+- 远程仓库：`https://github.com/lulu-18/AI-ReadMatch.git`；
+- 首次推送：已完成；
+- 分支：本地 `main` 跟踪 `origin/main`；
+- 推送内容：项目文档、研究结论、MVP 决策和协作规则；
+- 原始问卷隐私数据：未提交、未推送。

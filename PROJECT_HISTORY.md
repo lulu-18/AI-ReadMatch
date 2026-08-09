@@ -56,3 +56,10 @@
 - 本地 `origin` 已设置为 `https://github.com/lulu-18/AI-ReadMatch.git`；
 - 当前 GitHub 网络请求被重置，尚未验证仓库是否存在，也尚未完成首次推送；
 - 等远程仓库创建并可连接后，推送 `main`。
+
+## 2026-08-09 — 首次同步 GitHub
+
+- 用户确认已创建 `lulu-18/AI-ReadMatch` 私有仓库；
+- 首次推送 `main` 成功；
+- 本地 `main` 已设置跟踪 `origin/main`；
+- 推送前检查确认原始问卷目录被 `.gitignore` 排除。
