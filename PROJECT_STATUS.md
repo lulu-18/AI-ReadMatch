@@ -75,3 +75,10 @@ ReadMatch 是一个基于证据的个性化小说决策系统。第一版面向�
 - 敏感原始问卷：已忽略，未进入提交；
 - GitHub 远程：待配置；
 - 后续每个里程碑按 `GIT_WORKFLOW.md` 更新状态、历史、提交并在远程可用后推送。
+
+### GitHub 远程候选
+
+- GitHub 用户名：`lulu-18`；
+- 已配置远程候选：`https://github.com/lulu-18/AI-ReadMatch.git`；
+- 当前尚未成功验证或推送：网络连接 GitHub 被重置，且需确认远程仓库已创建；
+- 在首次成功推送前，不将 GitHub 同步标记为完成。
