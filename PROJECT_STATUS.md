@@ -114,3 +114,12 @@ ReadMatch 是一个基于证据的个性化小说决策系统。第一版面向�
 - 新增 `03-data-schema-v1-draft.md` 与 `04-ai-workflow-v1-draft.md`；
 - 当前等待项目负责人理解并确认数据 Schema 和 AI Workflow 中的 5 项核心取舍；
 - 确认后补充字段级验收标准并升级 PRD v1.0。
+
+## 2026-08-10 数据与 Workflow 确认、标签体系开始
+
+- 项目负责人已全部确认数据 Schema 与 AI Workflow 的核心取舍；
+- Schema 和 Workflow 状态冻结为 v1；
+- PRD 草案升级为 v0.4；
+- 新增 `phase-2-mvp-definition/05-preference-warning-taxonomy-v1-draft.md`；
+- 当前进入用户主导的标签定义阶段，第一轮只审核首屏 8 个正向偏好和 8 个硬性雷点；
+- 标签确认后继续建立首批书库证据标准与 30 条评测 Case 标注规范。
