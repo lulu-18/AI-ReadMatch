@@ -93,7 +93,7 @@ ReadMatch 是一个基于证据的个性化小说决策系统。第一版面向�
 
 ## 2026-08-09 PRD v0.1 状态
 
-- 已创建 `phase-2-mvp-definition/01-prd-v1-draft.md`；
+- 已创建 `phase-2-mvp-definition/01-prd-v1.md`；
 - 已写入冻结的用户、场景、P0/P1、非目标、AI 边界、指标和用户流程；
 - 当前等待项目负责人确认 5 个 P0 交互策略：未收录作品、仅雷点输入、偏好保存、LLM 失败和 JSON 校验失败；
 - 确认后继续产出数据 Schema、AI Workflow 与逐条验收标准。
@@ -123,3 +123,12 @@ ReadMatch 是一个基于证据的个性化小说决策系统。第一版面向�
 - 新增 `phase-2-mvp-definition/05-preference-warning-taxonomy-v1-draft.md`；
 - 当前进入用户主导的标签定义阶段，第一轮只审核首屏 8 个正向偏好和 8 个硬性雷点；
 - 标签确认后继续建立首批书库证据标准与 30 条评测 Case 标注规范。
+
+
+## 2026-08-10 PRD v1.0 开发基线
+
+- `phase-2-mvp-definition/01-prd-v1.md` 已升级为 PRD v1.0；
+- 已补齐 P0 页面清单、逐项验收标准、开发里程碑和非阻塞待定项；
+- 标签体系、模型选择和评测阈值不再阻塞 3 本样例的基础工程启动；
+- 新增 `06-prd-core-mastery-and-interview-guide.md`，记录项目负责人必须掌握的 10 个核心问题、回答框架和常见错误；
+- 下一步先进行 PRD 核心掌握检查，再确定技术栈并启动 M0/M1。
