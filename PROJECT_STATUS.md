@@ -198,3 +198,12 @@ ReadMatch 是一个基于证据的个性化小说决策系统。第一版面向�
 - 项目负责人选择《天官赐福》替代《魔道祖师》作为第三本 M1 样例；
 - M1 三本冻结为《撒野》《囚于永夜》《天官赐福》；
 - 下一步进入技术栈、模型/API 和工程骨架选择，不扩展到 30 本书。
+
+## 2026-08-11 M1 技术栈与模型方案待确认
+
+- 已核对本机 Node v24.18、npm 11.16、pnpm 11.9 可用；Python 3.12 当前没有 pip；
+- 新增 `16-m1-tech-stack-and-model-decision-v1.md`；
+- 推荐 M1 使用 Next.js 全栈 TypeScript、JSON Fixtures 和模型适配器；
+- 推荐默认模型 gpt-5.6-terra medium，gpt-5.6-sol high 作为少量质量参考；
+- 产品运行时不联网，只使用受控 Evidence；
+- 当前等待项目负责人确认技术方案和 API Key/预算条件，尚未创建代码工程。
