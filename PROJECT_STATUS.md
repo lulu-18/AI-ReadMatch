@@ -207,3 +207,21 @@ ReadMatch 是一个基于证据的个性化小说决策系统。第一版面向�
 - 推荐默认模型 gpt-5.6-terra medium，gpt-5.6-sol high 作为少量质量参考；
 - 产品运行时不联网，只使用受控 Evidence；
 - 当前等待项目负责人确认技术方案和 API Key/预算条件，尚未创建代码工程。
+
+## 2026-08-11 M1 技术方案确认
+
+- 项目负责人确认初期使用 Next.js 全栈 TypeScript、JSON Fixtures、受控 Evidence 和 Mock 模式；
+- 当前无 API Key，不阻塞页面、检索、规则和结果展示开发；
+- 明确初期方案不是长期限制，后期可按数据扩展数据库、FastAPI、联网 Connector 和 Agent；
+- 新增 `17-m1-architecture-evolution-boundaries.md`，要求 Repository、Retriever、ModelProvider 和 API Contract 可替换；
+- 下一步创建工程骨架。
+
+## 2026-08-12 M1 Mock 主链路已跑通
+
+- 创建 `apps/web` Next.js 16 全栈 TypeScript 工程；
+- 实现三本作品 JSON、偏好/雷点选项、Evidence、Zod Schema、Repository、Retriever、MockProvider、Validator、分析 API、反馈 API 和结果页面；
+- 《撒野》《囚于永夜》两个预测试场景端到端结果与 Gold Label 一致；
+- 完成 ESLint、TypeScript、生产构建、API、反馈和浏览器视觉验证；
+- 架构保留数据库、FastAPI、联网 Connector 和真实模型替换边界；
+- 当前尚未接入真实模型、SQLite 或自动 10 Case 评测；
+- 新增 `18-m1-mock-implementation-record-v1.md`。

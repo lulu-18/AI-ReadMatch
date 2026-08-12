@@ -1,0 +1,35 @@
+[
+  {
+    "id": "B001",
+    "title": "撒野",
+    "author": "巫哲",
+    "platform": "晋江文学城",
+    "completionStatus": "completed",
+    "genre": "纯爱",
+    "subgenres": ["现代", "校园", "成长"],
+    "officialSourceRef": "https://m.jjwxc.net/book2/2956313?whole=1",
+    "catalogStatus": "active"
+  },
+  {
+    "id": "B004",
+    "title": "囚于永夜",
+    "author": "麦香鸡呢",
+    "platform": "晋江文学城",
+    "completionStatus": "completed",
+    "genre": "纯爱",
+    "subgenres": ["现代", "ABO", "先婚后爱"],
+    "officialSourceRef": "https://m.jjwxc.net/book2/10526441?more=0&whole=1",
+    "catalogStatus": "active"
+  },
+  {
+    "id": "B003",
+    "title": "天官赐福",
+    "author": "墨香铜臭",
+    "platform": "晋江文学城",
+    "completionStatus": "completed",
+    "genre": "纯爱",
+    "subgenres": ["古风", "仙侠", "前世今生"],
+    "officialSourceRef": "https://www.jjwxc.net/onebook.php?novelid=3200611",
+    "catalogStatus": "active"
+  }
+]

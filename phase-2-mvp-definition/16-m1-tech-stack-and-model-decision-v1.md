@@ -327,3 +327,32 @@ Mock 模式：
 - 为什么 Structured Outputs 仍然需要规则校验；
 - 为什么产品运行时不联网；
 - 为什么 API Key 不能写进代码或上传 GitHub。
+
+## 十二、项目负责人最终决定（2026-08-11）
+
+1. M1 接受 Next.js 全栈 TypeScript，不单独建立 Python 后端；
+2. M1 接受三本样例使用 JSON Fixtures，需要持久化后再加入 SQLite；
+3. 接受默认 Terra、Sol 质量参考、Luna 后续批量候选的模型分工；
+4. 接受 M1 在线运行只使用受控 Evidence，不自行联网；
+5. 当前不确定如何获取 OpenAI API Key，M1 先使用 Mock 模式。
+
+### 适用边界
+
+以上决定只适用于 M1 初期，不代表长期架构永久限制为：
+
+- JSON 数据；
+- Next.js 内置后端；
+- 离线受控证据；
+- 单一模型提供商。
+
+后期可以按验证结果扩展：
+
+- JSON → SQLite/PostgreSQL；
+- Next.js Route Handler → 独立 Python/FastAPI 服务；
+- 受控证据 → 合法数据源 Connector 和受约束联网检索；
+- Mock → OpenAI 或其他模型 Provider；
+- 固定 Workflow → 必要时增加 Agent 研究层。
+
+扩展的前提是出现真实需求、性能瓶颈或数据证据，不能为了技术展示提前增加复杂度。
+
+**决策状态：已冻结 M1。**

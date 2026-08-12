@@ -1,0 +1,100 @@
+[
+  {
+    "id": "positive-mutual-rescue",
+    "label": "双向救赎",
+    "category": "relationship",
+    "type": "positive",
+    "description": "双方在关系中都获得可观察的支持或改变。"
+  },
+  {
+    "id": "positive-relationship-tension",
+    "label": "感情线有拉扯",
+    "category": "romance",
+    "type": "positive",
+    "description": "关系推进中存在吸引、试探、冲突或明显张力。"
+  },
+  {
+    "id": "positive-dimensional-characters",
+    "label": "人设立体",
+    "category": "character",
+    "type": "positive",
+    "description": "人物动机、缺点和成长有具体证据支撑。"
+  },
+  {
+    "id": "positive-ancient-xianxia",
+    "label": "古风仙侠",
+    "category": "setting",
+    "type": "positive",
+    "description": "偏好古风、仙侠或架空世界背景。"
+  },
+  {
+    "id": "positive-past-lives",
+    "label": "前世今生",
+    "category": "relationship",
+    "type": "positive",
+    "description": "人物关系包含跨越前世今生的联系。"
+  },
+  {
+    "id": "positive-sweet-daily-life",
+    "label": "甜蜜日常",
+    "category": "emotion",
+    "type": "positive",
+    "description": "偏好日常互动和较稳定的甜蜜体验。"
+  },
+  {
+    "id": "avoid-role-unclear-or-versatile",
+    "label": "互攻/攻受位不明确",
+    "category": "warning",
+    "type": "hard_constraint",
+    "description": "希望提前确认作者是否明确关系位或标注互攻。"
+  },
+  {
+    "id": "avoid-economic-hardship",
+    "label": "主角家庭经济困境",
+    "category": "warning",
+    "type": "hard_constraint",
+    "description": "希望避开主角长期面临明显家庭或生计压力的作品。"
+  },
+  {
+    "id": "avoid-campus-setting",
+    "label": "校园背景",
+    "category": "warning",
+    "type": "hard_constraint",
+    "description": "希望避开以高中或校园生活为重要主线的作品。"
+  },
+  {
+    "id": "avoid-abo-setting",
+    "label": "ABO 设定",
+    "category": "warning",
+    "type": "hard_constraint",
+    "description": "希望避开 Alpha、Beta、Omega、信息素等核心设定。"
+  },
+  {
+    "id": "avoid-relationship-harm",
+    "label": "关系中的伤害/压迫",
+    "category": "warning",
+    "type": "hard_constraint",
+    "description": "希望核验身体、情感、控制、强迫或长期伤害。"
+  },
+  {
+    "id": "avoid-fake-death-plot",
+    "label": "死盾/假死推动剧情",
+    "category": "warning",
+    "type": "hard_constraint",
+    "description": "希望核验角色主动假死或被当作死亡推动剧情的情节。"
+  },
+  {
+    "id": "avoid-complex-plot",
+    "label": "剧情理解成本高",
+    "category": "warning",
+    "type": "hard_constraint",
+    "description": "希望避开时间线、人物或世界观过于复杂的阅读体验。"
+  },
+  {
+    "id": "avoid-slow-romance",
+    "label": "感情线推进缓慢",
+    "category": "warning",
+    "type": "hard_constraint",
+    "description": "希望避开慢热或长时间缺少关系推进的作品。"
+  }
+]

@@ -177,3 +177,20 @@
 - M1 先使用 JSON Fixtures，日志和反馈需要持久化后再加入 SQLite；
 - 模型方案推荐 Terra 作为默认、Sol 作为质量参考、Luna 作为后续批量候选；
 - 在线产品只使用受控证据，联网搜索限制在离线准备和 Baseline。
+
+## 2026-08-11 — 确认 M1 技术方案与长期扩展边界
+
+- 确认 M1 使用 Next.js 全栈 TypeScript、三本 JSON Fixtures 和 Mock 模式；
+- 暂无 OpenAI API Key，先开发完整业务流程；
+- 明确后期按实际需求扩展 SQLite/PostgreSQL、Python/FastAPI、合法联网 Connector 和 Agent；
+- 通过 Repository、Retriever、ModelProvider 和 API Contract 防止 M1 实现写死。
+
+## 2026-08-12 — 完成 M1 Mock 端到端主链路
+
+- 创建 Next.js 16 + TypeScript + Tailwind Web 工程；
+- 使用 JSON Fixtures 和 MockProvider 实现作品选择、偏好/雷点、证据检索、结构化结果、规则校验和反馈；
+- 为后期数据库、FastAPI、真实模型和联网检索保留可替换接口；
+- 修复 TypeScript/ESLint 版本、JSON BOM、枚举类型和 Provider 耦合问题；
+- lint、类型检查和生产构建通过；
+- 在本地页面跑通《撒野》《囚于永夜》两个复杂 Case 和反馈提交；
+- 当前 M1 是产品/规则 Mock，不得包装为已经完成真实 AI 模型接入。
